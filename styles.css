@@ -1,0 +1,121 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+    background: #eee;
+    margin: 1.75rem .5rem;
+    padding: 1rem;
+    border-radius: .25rem;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    margin: 1rem;
+}
+
+.header__title {
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+/* Figure styles */
+.img-div {
+    background: white;
+    text-align: center;
+    border-radius: .25rem;
+    padding: 1rem 1rem;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+.img-div__image {
+    margin: 0.75rem auto;
+    max-width: 90%;
+}
+
+/* Main styles */
+.main {
+
+}
+
+/* Content styles */
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Tribute info styles */
+.tribute-info {
+
+}
+
+.tribute-info__title {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.tribute-info__list {
+    padding-left: 2rem;
+}
+
+.tribute-info__list li {
+    margin: 1rem 0;
+    line-height: 1.75;
+}
+
+/* Blockquote styles */
+.blockquote-section {
+    margin: 3rem auto;
+    font-style: italic;
+}
+
+.blockquote {
+    padding: 0 .5rem;
+    line-height: 1.75;
+}
+
+.blockquote p {
+    margin: 1rem 0;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.footer a {
+    color: #477ca7;;
+}
+
+.footer a:visited {
+    color: #74638f;
+}
+
+/* More info styles */
+.more-info {
+    text-align: center;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin: 2rem 0;
+}
